@@ -1,9 +1,6 @@
-# Scheduling_Algorithms
-Scheduling algorithms are techniques used by operating systems to manage the execution of processes by allocating CPU time efficiently. These algorithms optimize performance metrics like turnaround time, waiting time, and CPU utilization based on specific criteria such as priority, arrival time, or burst time.
-
 # Scheduling Algorithms
 
-A **University Project** showcasing the implementation of various **Operating System Scheduling Algorithms**. This system allows users to easily calculate and visualize the execution of processes using popular scheduling algorithms. It's designed to help students and developers understand the working of process scheduling in operating systems.
+**University Project**:Scheduling algorithms are techniques used by operating systems to manage the execution of processes by allocating CPU time efficiently. These algorithms optimize performance metrics like turnaround time, waiting time, and CPU utilization based on specific criteria such as priority, arrival time, or burst time.A comprehensive simulation of **Operating System Scheduling Algorithms** implemented in Python. This project aims to help students, developers, and enthusiasts understand and visualize the execution of processes using popular scheduling algorithms. It provides an intuitive platform to explore various scheduling techniques used in operating systems.
 
 ## 📋 Table of Contents
 
@@ -18,38 +15,52 @@ A **University Project** showcasing the implementation of various **Operating Sy
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-  
+
 ## 🖥️ Overview
 
-This project simulates and calculates the **execution of processes** in an operating system using various **scheduling algorithms**. Users can input process details and view how these processes are managed by different algorithms, helping them visualize the scheduling behavior and understand concepts like CPU burst time, waiting time, turnaround time, and response time.
+This project simulates the scheduling of processes in an operating system using several well-known **scheduling algorithms**. It provides a real-time visualization of process execution, helping users understand key metrics such as waiting time, turnaround time, and CPU burst time. Ideal for educational purposes and practical learning, this tool breaks down how various algorithms function under different conditions.
 
-The project provides the following:
-- Real-time scheduling process simulations.
-- Clear and detailed algorithm execution steps.
-- Easy-to-understand output representation.
-- Support for multiple OS scheduling algorithms.
+**Key Features:**
+- Real-time process scheduling simulations.
+- Visual breakdown of the execution process with Gantt charts.
+- Clear, step-by-step algorithm execution to foster better understanding.
+- Multi-platform support across Windows, macOS, and Linux.
 
 ## 🚀 Features
 
-- **Supports Multiple Scheduling Algorithms**: Includes **FCFS**, **SJF**, **Round Robin**, **Priority Scheduling**, and others.
-- **Easy-to-Use Interface**: Simple, user-friendly UI to input processes and execute scheduling algorithms.
-- **Real-Time Calculation**: Automatically calculates key metrics like waiting time, turnaround time, and CPU utilization.
-- **Graphical Output**: Visual representation of the scheduling process with Gantt charts.
-- **Detailed Execution Steps**: Breaks down the execution of each algorithm to help users understand how processes are scheduled.
-- **Cross-Platform Support**: Works across Windows, Linux, and macOS.
+- **Multiple Scheduling Algorithms Supported**: Implements popular algorithms such as:
+  - **FCFS (First Come First Serve)**
+  - **SJF (Shortest Job First)**
+  - **Round Robin (RR)**
+  - **Priority Scheduling**
+  - **Multilevel Queue (if implemented)**
+- **User-Friendly Interface**: A simple, easy-to-use GUI that allows users to quickly input process details and execute scheduling algorithms.
+- **Real-Time Calculations**: Automatically computes essential metrics like waiting time, turnaround time, response time, and CPU utilization.
+- **Graphical Visualizations**: Displays process execution timelines using Gantt charts, making it easier to understand how scheduling algorithms work.
+- **Detailed Execution Flow**: Walks users through each scheduling algorithm with detailed steps to improve comprehension.
+- **Cross-Platform Compatibility**: Designed to run on all major operating systems (Windows, macOS, and Linux).
 
 ## 🛠️ Tech Stack
 
-- **Programming Language**: Python (for algorithm implementation)
-- **GUI**: Tkinter (for user interface)
-- **Visualization**: Matplotlib (for Gantt chart generation)
-- **Algorithms**: FCFS (First Come First Serve), SJF (Shortest Job First), Round Robin, Priority Scheduling, and others
+The following technologies are used to implement this project:
+
+- **Programming Language**: Python
+- **GUI Framework**: Tkinter (for the user interface)
+- **Visualization**: Matplotlib (used for generating Gantt charts and graphical outputs)
+- **Algorithms Implemented**: 
+  - **FCFS (First Come First Serve)**
+  - **SJF (Shortest Job First)**
+  - **Round Robin**
+  - **Priority Scheduling**
+  - **Multilevel Queue Scheduling** (if applicable)
 
 ## 📥 Installation
 
+To get started with this project, follow the installation instructions below:
+
 ### 1. Clone the Repository
 
-First, clone this repository to your local machine:
+Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/SaifKhan2002/Scheduling_Algorithms.git
